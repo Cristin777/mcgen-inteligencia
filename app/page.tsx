@@ -49,20 +49,4 @@ export default function VitriaIA() {
               </button>
               <button
                 onClick={() => handleAnswer(false)}
-                className="bg-red-600 hover:bg-red-700 px-4 py-2 rounded text-white"
-              >
-                Não
-              </button>
-            </div>
-          </div>
-        ) : (
-          <div className="space-y-4 text-center">
-            <h2 className="text-xl font-semibold">Resultado</h2>
-            <p>{calculateResult()}</p>
-            <p className="text-sm text-gray-400">Análise automatizada sem valor jurídico.</p>
-          </div>
-        )}
-      </div>
-    </div>
-  );
-}
+                className="bg-red-600 hover:
